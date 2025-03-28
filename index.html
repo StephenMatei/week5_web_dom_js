@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript & DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <p id="description">Click the button to change this text.</p>
+        <button onclick="changeText()">Change Text</button>
+        
+        <h2>Style Modification</h2>
+        <button onclick="changeColor()">Change Background Color</button>
+
+        <h2>Element Manipulation</h2>
+        <button onclick="addElement()">Add New Element</button>
+        <button onclick="removeElement()">Remove Last Element</button>
+
+        <div id="content"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
